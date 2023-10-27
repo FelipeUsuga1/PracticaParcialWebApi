@@ -20,5 +20,7 @@ namespace PracticaParcialApi.DAL.Entities
 
         [Display(Name = "Id Dueño")]
         public Guid OwnerId { get; set; } //FK
+
+        public ICollection<Appointment>? Appointments { get; set; }
     }
 }

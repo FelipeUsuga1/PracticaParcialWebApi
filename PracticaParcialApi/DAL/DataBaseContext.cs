@@ -20,6 +20,7 @@ namespace PracticaParcialApi.DAL
 
         public DbSet<Owner> Owners { get; set; }
         public DbSet<Animal> Animals { get; set; }
+        public DbSet<Appointment> Appointments { get; set; }
 
     }
 }

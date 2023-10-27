@@ -10,7 +10,7 @@ namespace PracticaParcialApi.DAL.Entities
         public string Name { get; set; } //varchar(50)
 
         public string LastName { get; set; } //varchar(50)
-
+        
         public int Telefono { get; set; }
 
         [Display(Name = "Animales")]
